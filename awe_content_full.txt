@@ -1,0 +1,134 @@
+<USER_REQUEST>
+here is the content of the hero section just replace the content with thisnew content AWE Intelligence — Home Page Content Structure
+1. Navigation
+- Logo: AWE Intelligence
+- Menu: Training & Advisory · Our Approach · Academy · About
+- Primary CTA: Discuss training for my team
+2. Hero Section
+Eyebrow: AI training for leaders and teams
+AI skills. Human wisdom. Better decisions.
+Learn to apply AI to real work while developing the judgement, adaptability and awareness to use it thoughtfully. AWE Intelligence combines practical AI training with conscious leadership and a research-informed approach to human learning.
+
+Buttons:
+- Explore training for your team
+- Discover our approach
+3. The Case for Training
+AI has changed the work. Now we need to change the training.
+AI is changing how we research, create, communicate and make decisions. The opportunity starts with understanding where it can help, then building the skills to use it well.
+
+Our training connects practical exercises with the questions that matter at work:
+- What are we trying to achieve?
+- Can we trust this answer?
+- Where do we need human expertise?
+- What should we do next?
+4. Make AI Useful in Everyday Work
+- Find relevant use cases for your role and team.
+- Give AI clear instructions, useful context and meaningful constraints.
+- Review outputs for accuracy, relevance and unsupported assumptions.
+- Recognise when to seek expert advice or keep a decision with a person.
+- Turn what you learn into a practical next step for your organisation.
+5. Start with Your Team
+Tell us where your team is today and what you want to achieve. We can help you explore the right starting point, from an introductory workshop to a focused adoption programme.
+
+Button: Discuss training for my team
+6. Our Approach
+Eyebrow: Our Approach
+Human First by Design
+The tools will keep changing. Our approach gives people a way to keep learning: practise on real tasks, question the output and take responsibility for the decision.
+6.1 Practical AI Skills
+Build confidence through relevant examples and hands-on practice. Learn how to frame a task, write useful prompts, evaluate responses and apply AI where it adds value.
+6.2 Conscious Leadership
+Connect AI adoption to purpose, responsibility and the people affected by it. Explore how to lead change, communicate clearly and make considered choices about what to automate, where to experiment and when to involve others.
+6.3 Awareness and Human Wisdom
+Our approach draws on neuroscience and behavioural research, alongside ancient wisdom traditions. We bring practical AI learning together with reflection, meditation and optional breathwork practices, with the aim of cultivating attention, emotional awareness and more considered decisions. These practices create opportunities to pause, notice assumptions and consider another perspective before acting. They complement practical skills, evidence and professional judgement.
+Learn Through Deliberate Practice
+01 — Clarify the challenge
+
+Define the decision, context and what a useful result would look like.
+
+02 — Explore with AI
+
+Ask questions, develop options and test alternative perspectives.
+
+03 — Question the answer
+
+Check evidence, assumptions, omissions and consequences.
+
+04 — Decide and reflect
+
+Make your own judgement, act responsibly and learn from the result.
+What Informs the Approach
+Research has explored how meditation and structured breathing affect attention, stress, mood and aspects of decision-making. Findings vary across practices, settings and participants. We use this research to inform how we teach, while recognising that a change in mood or brain activity does not by itself demonstrate better business decisions.
+
+AWE Intelligence’s combined approach has not been independently validated as a programme. Our aim is to help people develop useful habits of attention and reflection alongside their AI skills.
+
+Link: Explore the research behind our approach
+7. Meet Sean
+Meet Sean Lee-Davies
+Sean Lee-Davies is the founder of AWE Intelligence and Awethentic Group, a conscious leadership mentor, filmmaker and three-time TEDx speaker. His work explores the relationship between technology, leadership and human potential.
+
+A contributing editor to Tatler Limitless and GQ Hong Kong, Sean has interviewed and photographed influential figures including Ray Dalio, Steven Bartlett, Wim Hof and Jane Goodall. Through his work across storytelling, leadership and experiential learning, he explores how people can approach change with curiosity, purpose and considered judgement.
+
+At AWE Intelligence, he brings this perspective to practical AI learning, helping leaders and teams explore how to work with emerging technology while strengthening the human qualities they bring to it.
+
+Button: Talk to us about your team
+8. General Questions
+Who is the training for?
+Leaders and teams who want to understand how AI applies to their work and develop a more thoughtful way to use it.
+Do we need technical experience?
+Tell us about your team’s starting point. We will discuss the level and format that fits your needs.
+Does every session include meditation or breathwork?
+Awareness practices are optional and selected to suit the agreed programme. Practical AI learning remains the starting point.
+Where do you deliver?
+Contact us to discuss location, remote delivery and availability for your team.
+9. Research Behind Our Approach
+Display: Optional section, collapsed by default.
+
+These studies inform the rationale for attention and reflection practices. They do not validate AWE Intelligence’s programme or establish that breathwork and meditation reliably improve workplace decisions.
+9.1 Attention and Self-Regulation
+Tang and colleagues (2007) randomly assigned 80 Chinese undergraduates to five days of integrative body–mind training or relaxation training. The meditation group improved on a measure of executive attention and showed differences in mood and stress responses. The study tested a specific, supported training protocol, not a brief workplace exercise or business decision performance.
+
+Source: Tang et al. 2007 — Short-term meditation training improves attention and self-regulation
+9.2 Brain Networks Involved in Executive Control
+Taren and colleagues (2017) studied 35 stressed unemployed adults assigned to a three-day mindfulness or relaxation programme. They reported differences in resting-state functional connectivity involving executive-control networks. This small neuroimaging study offers a possible mechanism to investigate; it did not establish improved executive performance or better real-world decisions.
+
+Source: Taren et al. 2017 — Mindfulness meditation training and executive control network connectivity
+9.3 Structured Breathing and Emotional State
+Balban and colleagues (2023) studied daily five-minute breathing exercises and mindfulness meditation over 28 days. The trial found improvements in mood and reductions in respiratory rate, with particularly promising findings for exhale-focused cyclic sighing. Decision quality was not measured. These results support exploring structured breathing for emotional state, not a claim that it produces better decisions.
+
+Source: Balban et al. 2023 — Brief structured respiration practices enhance mood and reduce physiological arousal
+9.4 Mindfulness and a Specific Decision Bias
+Hafenbrack, Kinias and Barsade (2014) reported that a brief mindfulness exercise reduced susceptibility to sunk-cost bias in experimental decision scenarios. This concerns one kind of bias under study conditions, rather than general decision-making ability. Evidence is mixed. A 2022 study using a different intervention design did not find mindfulness superior to relaxation on sunk-cost bias. Duration, comparison condition and setting matter, so neither result should be presented as a universal effect.
+
+Sources: Hafenbrack et al. 2014 — Debiasing the mind through meditation; 2022 counterevidence — Meditation in the workplace
+10. Footer
+Brand: AWE Intelligence
+
+Tagline: Practical AI skills. Conscious leadership. Human awareness.
+
+Navigation links:
+- Training & Advisory
+- Our Approach
+- Academy
+- About
+- Contact
+Legal links:
+- Privacy Policy
+- Terms
+Copyright: © 2026 Awethentic Group Limited
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-10-19T15:11:01+05:30.
+
+The user's current state is as follows:
+Active Document: /Users/harsh/Desktop/ai-training/src/data/pages/index.ts (LANGUAGE_TYPESCRIPT)
+Cursor is on line: 4
+Other open documents:
+- /Users/harsh/Desktop/ai-training/src/app/globals.css (LANGUAGE_CSS)
+- /Users/harsh/Desktop/ai-training/src/app/[...slug]/page.tsx (LANGUAGE_TSX)
+- /Users/harsh/Desktop/ai-training/src/components/ClonedPageRenderer.tsx (LANGUAGE_TSX)
+- /Users/harsh/Desktop/ai-training/src/components/NewsSection.tsx (LANGUAGE_TSX)
+- /Users/harsh/Desktop/ai-training/README.md (LANGUAGE_MARKDOWN)
+Running terminal commands:
+- claude (in /Users/harsh/Desktop/ai-training, running for 1h24m32s)
+</ADDITIONAL_METADATA>

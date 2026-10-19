@@ -1,12 +1,11 @@
-import type { Metadata } from "next";
-import { systemsPageData } from "@/data/pages/systems";
-import PageView from "@/components/PageView";
+import React from "react";
+import ClonedPageRenderer from "@/components/ClonedPageRenderer";
 
-export const metadata: Metadata = {
-  title: systemsPageData.title,
-  description: systemsPageData.description,
+export const metadata = {
+  title: "Wonderful Systems",
+  description: "Wonderful helps critical organizations accelerate AI adoption to unlock their full potential.",
 };
 
 export default function SystemsPage() {
-  return <PageView data={systemsPageData} />;
+  return <ClonedPageRenderer pagePath="systems" />;
 }

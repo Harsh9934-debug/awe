@@ -1,12 +1,11 @@
-import type { Metadata } from "next";
-import { homePageData } from "@/data/pages/index";
-import PageView from "@/components/PageView";
+import React from "react";
+import ClonedPageRenderer from "@/components/ClonedPageRenderer";
 
-export const metadata: Metadata = {
-  title: homePageData.title,
-  description: homePageData.description,
+export const metadata = {
+  title: "Wonderful | The Enterprise AI OS",
+  description: "Wonderful helps critical organizations accelerate AI adoption to unlock their full potential.",
 };
 
 export default function HomePage() {
-  return <PageView data={homePageData} />;
+  return <ClonedPageRenderer pagePath="index" />;
 }

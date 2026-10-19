@@ -1,12 +1,11 @@
-import type { Metadata } from "next";
-import { aiOsPageData } from "@/data/pages/ai-os";
-import PageView from "@/components/PageView";
+import React from "react";
+import ClonedPageRenderer from "@/components/ClonedPageRenderer";
 
-export const metadata: Metadata = {
-  title: aiOsPageData.title,
-  description: aiOsPageData.description,
+export const metadata = {
+  title: "Wonderful AI OS",
+  description: "Wonderful helps critical organizations accelerate AI adoption to unlock their full potential.",
 };
 
 export default function AiOsPage() {
-  return <PageView data={aiOsPageData} />;
+  return <ClonedPageRenderer pagePath="ai-os" />;
 }

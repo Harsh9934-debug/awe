@@ -1,12 +1,11 @@
-import type { Metadata } from "next";
-import { contactPageData } from "@/data/pages/contact";
-import PageView from "@/components/PageView";
+import React from "react";
+import ClonedPageRenderer from "@/components/ClonedPageRenderer";
 
-export const metadata: Metadata = {
-  title: contactPageData.title,
-  description: contactPageData.description,
+export const metadata = {
+  title: "Contact | Wonderful",
+  description: "Get in touch with the Wonderful enterprise team.",
 };
 
 export default function ContactPage() {
-  return <PageView data={contactPageData} />;
+  return <ClonedPageRenderer pagePath="contact" />;
 }
