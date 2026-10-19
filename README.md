@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Wonderful.ai - Native Next.js Frontend
 
-## Getting Started
+A complete, high-fidelity frontend clone of **[wonderful.ai](https://www.wonderful.ai/)** running natively in **Next.js 16 (App Router)** with **React 19**, **TypeScript**, and **Tailwind CSS**.
 
-First, run the development server:
+---
+
+## 🚀 Running the Project
+
+Start the local development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open **`http://localhost:3000`** (or `http://localhost:3001` if port 3000 is occupied).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+To build and run in production mode:
+```bash
+npm run build
+npm run start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📁 Clean Next.js Architecture
 
-To learn more about Next.js, take a look at the following resources:
+```text
+ai-training/
+├── src/
+│   ├── app/
+│   │   ├── layout.tsx                     # RootLayout (Fonts, metadata, styling)
+│   │   ├── globals.css                    # Tailwind CSS v4 design system & visibility rules
+│   │   ├── not-found.tsx                  # 404 handler
+│   │   ├── page.tsx                       # Homepage route
+│   │   ├── about-us/page.tsx              # About Us route
+│   │   ├── systems/page.tsx               # Systems route
+│   │   ├── ai-os/page.tsx                 # AI OS route
+│   │   ├── deployment/page.tsx            # Deployment route
+│   │   └── contact/page.tsx               # Contact route
+│   ├── components/
+│   │   └── PageView.tsx                   # Type-safe page renderer component
+│   └── data/
+│       ├── types.ts                       # Page TypeScript definitions
+│       └── pages/                         # Native TypeScript page data modules
+├── public/
+│   ├── fonts/                             # 127 local fonts (Google Sans, Inter, Mono, Favorit)
+│   ├── images/                            # 330 local images, logos, UI cards, and screenshots
+│   ├── assets/                            # Local static icons, metadata, and search indices
+│   └── sites/                             # Local Framer interactive runtime script modules
+└── package.json, next.config.ts, tsconfig.json
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎯 Key Pages (100% Native TypeScript / TSX)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Exact 1:1 UI, Typography, Layout, and Animations** from `https://www.wonderful.ai/`.
+- **Core Routes Supported**:
+  - Home: `/`
+  - Products: `/ai-os`, `/systems`
+  - Strategic Model: `/deployment`
+  - Company: `/about-us`, `/contact`
+- **Completely Clean Frontend**:
+  - Zero `.html` files anywhere in the project.
+  - Every page is a first-class Next.js App Router route (`.tsx`).
+  - Pre-rendered statically with Turbopack in ~1s.
+- **Completely Self-Contained**:
+  - 330 localized images in `public/images/`
+  - 127 localized fonts in `public/fonts/`
+  - Zero external tracking scripts or analytics bloat.
