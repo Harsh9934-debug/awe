@@ -74,15 +74,47 @@ export default function PageView({ data }: { data: PageDefinition }) {
         .forEach((img) => {
           img.removeAttribute("srcset");
           img.src = "/logo.png";
+          img.style.objectFit = "contain";
+          img.style.objectPosition = "center";
+          // Lift the faint 0.1-opacity wrapper so the mark actually reads.
+          const wrapper = img.closest<HTMLElement>('[style*="opacity"]');
+          if (wrapper) wrapper.style.opacity = "0.5";
+        });
+    };
+
+    // Remove the top announcement banner ("… Raises $550M Series C", etc).
+    const removeBanner = () => {
+      document
+        .querySelectorAll<HTMLElement>(
+          '[data-framer-name="Series C announcement"],[data-framer-name^="Announcement -"]'
+        )
+        .forEach((seed) => {
+          let node: HTMLElement | null = seed;
+          let bar: HTMLElement | null = null;
+          for (let i = 0; i < 14 && node && node !== document.body; i++) {
+            const rect = node.getBoundingClientRect();
+            const bg = getComputedStyle(node).backgroundImage;
+            if (
+              bg.includes("gradient") &&
+              node.offsetWidth >= window.innerWidth * 0.9 &&
+              rect.top < 160
+            ) {
+              bar = node;
+            }
+            node = node.parentElement;
+          }
+          (bar ?? seed).remove();
         });
     };
 
     applyLogo();
     applyWatermark();
+    removeBanner();
     // Re-apply if Framer's runtime repopulates the logo anchors.
     const observer = new MutationObserver(() => {
       applyLogo();
       applyWatermark();
+      removeBanner();
     });
     observer.observe(document.body, { childList: true, subtree: true });
 

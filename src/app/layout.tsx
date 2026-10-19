@@ -3,8 +3,8 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.wonderful.ai"),
-  title: "Wonderful | The Enterprise AI OS",
-  description: "Wonderful helps critical organizations accelerate AI adoption to unlock their full potential.",
+  title: "AWE Intelligence | The Enterprise AI OS",
+  description: "AWE Intelligence helps critical organizations accelerate AI adoption to unlock their full potential.",
   icons: {
     icon: "/images/rN39YiHPBpaL1Jtucx1OrbUwHdc.png",
     apple: "/images/RlVX2Ppi8NAkXgqwDa2IDocBnlI.png",
